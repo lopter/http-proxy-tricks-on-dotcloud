@@ -29,6 +29,7 @@ service. Everything else is redirected to the app service
 
 However this solution is not really advised on the DotCloud platform for three
 reasons:
+
 #. It adds a service only to route HTTP traffic (expensive);
 #. It's difficult to set up;
 #. It further adds latency (on DotCloud HTTP traffic goes already at least
