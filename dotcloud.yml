@@ -1,0 +1,13 @@
+proxy:
+    # The nginx configuration in the static service has an annoying catch all
+    # location, let's use php.
+    type: php
+    approot: proxy
+
+blog:
+    type: php
+    approot: blog
+
+app:
+    type: php
+    approot: app
